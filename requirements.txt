@@ -10,3 +10,4 @@ tqdm
 python-dotenv
 notebook
 sentence-transformers
+langchain-mistralai
