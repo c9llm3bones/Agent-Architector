@@ -1,4 +1,6 @@
 from langchain_huggingface import HuggingFaceEmbeddings
+import os
+from langchain_community.vectorstores import FAISS
 
 def create_or_load_vector_store(
     documents: list,
